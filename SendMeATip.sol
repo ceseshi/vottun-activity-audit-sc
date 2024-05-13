@@ -8,7 +8,7 @@ import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 contract SendMeATip is Ownable {
     event NewTip(address indexed tipper, string name);
 
-private address owner;
+//private address owner;
 
     struct Tip {
         address tipper;
