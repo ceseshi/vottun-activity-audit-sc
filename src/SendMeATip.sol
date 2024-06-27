@@ -46,7 +46,7 @@ contract SendMeATip is Ownable {
      * @dev send the entire balance stored in this contract to the owner
      */
     function withdrawTips() public {
-        require(owner().send(address(this).balance));
+        require(payable(owner()).send(address(this).balance));
     }
 
 
