@@ -3,11 +3,12 @@ Contains smart contracts for smart contract audit activity
 
 # Requirements
 
-- Foundry
+- [Foundry](https://book.getfoundry.sh/)
 
 # How to test
 
 ```bash
 forge install
 forge test
+forge coverage
 ```
